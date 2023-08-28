@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% block content %}
+    {{ mathdown.include_mathdown_all() }}
+
+    <!-- Discussion Data -->
+    <h2>{{ discussion.title }}</h2>
+    <div class="mathdown">
+        {{ discussion.text }}
+    </div>
+
+    {% if discussion.poster_id != None %}
+    <p>Posted by: <a href="{{ url_for('profile', user_id=discussion.poster_id) }}">{{ discussion.poster.username }}</a></p>
+    {% else %}
+    <p>Posted by: user deleted</p>
+    {% endif %}
+    <p>Posted at: {{ discussion.post_date }}</p>
+    <p>Views: {{ discussion.views }}</p>
+
+    <!-- Tags Table -->
+    <table>
+    <tr>
+        <td>Tags: </td>
+    {% for tag in discussion.tags.split(',') %}
+        <td>{{ tag }}</td>
+    {% endfor %}
+    </tr>
+    </table>
+
+    <!--  If this user posted the discussion show the delete button -->
+    {% if current_user.id == discussion.poster_id %}
+    <button onclick="delete_object('discussion', {{ discussion.id }})">Delete</button>
+    {% else %}
+    <button type="button" onclick="add_like('discussion',{{ discussion.id }}, 'add_like');">Like</button>
+    <button type="button" onclick="add_like('discussion',{{ discussion.id }}, 'add_dislike')">Dislike</button>
+    {% endif %}
+    <p>Likes: {{ discussion.likes }}</p>
+    <p>Dislikes: {{ discussion.dislikes }}</p>
+
+
+    <!-- Comments Table -->
+    <table>
+    {% for comment in comments %}
+    {% if comment %}
+        <tr>
+            {% if comment.poster_id != None %}
+            <td><a href="{{ url_for('profile', user_id=comment.poster.id) }}">{{ comment.poster.username }}</a> says:</td>
+            {% else %}
+            <td>deleted user says:</td>
+            {% endif %}
+        </tr>
+        <tr>
+            <td class="mathdown markdown">
+                {{ comment.text }}
+            </td>
+        </tr>
+        <tr>
+            <td>Posted at: {{ comment.post_date }}</td>
+        </tr>
+        <!-- If this user posted the comment show the delete button -->
+        {% if current_user.id == comment.poster_id %}
+        <tr>
+            <td><button onclick="delete_object('comment', {{ comment.id }})">Delete</button></td>
+        </tr>
+        {% else %}
+        <tr>
+        <td>
+            <button type="button" onclick="add_like('comment', {{ comment.id }}, 'add_like')">Like</button>
+            <button type="button" onclick="add_like('comment', {{ comment.id }}, 'add_dislike')">Dislike</button>
+        </td>
+        </tr>
+        {% endif %}
+        <tr>
+            <td>Likes: {{ comment.likes }}</td>
+        </tr>
+        <tr>
+            <td>Dislikes: {{ comment.dislikes }}</td>
+        </tr>
+        <br>
+    {% endif %}
+    {% endfor %}
+    </table>
+
+    <!-- New comment form -->
+    <div class="markdown">
+    <form method="post">
+        <table>
+        {{ form.hidden_tag() }}
+        <tr>
+            <td>{{ form.text.label }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.text() }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.submit() }}</td>
+        </tr>
+        </table>
+    </form>
+    </div>
+
+{% endblock %}

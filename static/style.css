@@ -1,0 +1,35 @@
+.dropdown-content {
+    display: none;
+}
+
+.show {display: block;}
+
+.flashed-message {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    position: static;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flashed-message-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 9999;
+    width: 95%;
+}
+
+.flashed-message-container div#info {
+    background-color: lightblue;
+}
+
+.flashed-message-container div#warning {
+    background-color: orange;
+}
+
+.flashed-message-container div#error {
+    background-color: orangered;
+}

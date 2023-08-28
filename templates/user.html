@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block content %}
+    {{ mathdown.include_mathdown() }}
+    <h2>{{ user.username }}</h2>
+
+    <!-- Discussions table-->
+    <table>
+    <tr>
+        <td>Discussions</td>
+    </tr>
+    {% if user.discussions.count() == 0 %}
+    <tr>
+        <td>No discussions posted</td>
+    </tr>
+    {% else %}
+    {% for discussion in user.discussions %}
+    <tr>
+        <td><a href="{{ url_for('discussion', discussion_id=discussion.id) }}">{{ discussion.title }}</a></td>
+        <td>{{ discussion.text }}</td>
+    </tr>
+    <tr>
+        <td>Tags:</td>
+        {% for tag in discussion.tags.split(',') %}
+        <td>{{ tag }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>Posted at: {{ discussion.post_date.date() }}</td>
+    </tr>
+    {% endfor %}
+    {% endif %}
+    </table>
+
+    <!-- Comments table -->
+    <table>
+    <tr>
+        <td>Comments</td>
+    </tr>
+    {% if user.comments.count() == 0 %}
+    <tr>
+        <td>No comments posted</td>
+    </tr>
+    {% else %}
+    {% for comment in user.comments %}
+    <tr>
+        <td><a href="{{ url_for('discussion', discussion_id=comment.discussion_id) }}">{{ comment.discussion.title }}</a></td>
+        <td>{{ comment.text }}</td>
+    </tr>
+    <tr>
+        <td>Posted at: {{ comment.post_date.date() }}</td>
+    </tr>
+    {% endfor %}
+    {% endif %}
+    </table>
+
+    {% if tag_counter == {} %}
+    <p>Create a discussion with tags to get a top tag!</p>
+    {% else %}
+    <p>Top tag: {{ tag_counter.most_common(1)[0][0] }}</p>
+    {% endif %}
+
+    {% if current_user.id == user.id %}
+    <button type="button" onclick="delete_object('user', {{ user.id }})">Delete Account</button>
+    {% endif %}
+{% endblock %}

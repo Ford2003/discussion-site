@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</head>
+<body>
+<!-- Navbar -->
+    <div class="navbar">
+        <a href="{{ url_for('index') }}">Home</a>
+         |
+        <a href="{{ url_for('about') }}">About</a>
+         |
+        <a href="{{ url_for('discussions') }}">Discussions</a>
+        {% if not current_user.is_authenticated %}
+        |
+        <a href="{{ url_for('login') }}">Login</a>
+         |
+        <a href="{{ url_for('sign_up') }}">Sign Up</a>
+        {% endif %}
+        {% if current_user.is_authenticated %}
+         |
+        <a href="{{ url_for('logout') }}">Log Out</a>
+         |
+        <a href="{{ url_for('profile', user_id=current_user.id) }}">Profile</a>
+        {% endif %}
+    </div>
+
+    <!-- Show flashed messages -->
+    <div class="flashed-message-container">
+    {% with messages = get_flashed_messages(with_categories=True) %}
+    {% if messages %}
+        {% for category, message in messages %}
+            <div class="flashed-message" id="{{ category }}">
+                <button type="button" class="close-btn" onclick="this.parentElement.style.display='none';">&times;</button>
+                <span>{{ message }}</span>
+            </div>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+    </div>
+{% block content %}{% endblock %}
+</body>
+</html>

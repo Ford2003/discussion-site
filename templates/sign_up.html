@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Sign Up!</h2>
+    <form method="post">
+    <table>
+        <tr>
+            <td>{{ form.hidden_tag() }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.username.label }}</td>
+            <td>{{ form.username() }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.email.label }}</td>
+            <td>{{ form.email() }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.password.label }}</td>
+            <td>{{ form.password() }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.password_check.label }}</td>
+            <td>{{ form.password_check() }}</td>
+            {% for error in form.password_check.errors %}
+            <td><span style="color: red;">[{{ error }}]</span></td>
+            {% endfor %}
+        </tr>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <tr>
+                        <td>{{ message }}</td>
+                    </tr>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <tr>
+            <td>{{ form.submit() }}</td>
+        </tr>
+    </table>
+    </form>
+
+{% endblock %}

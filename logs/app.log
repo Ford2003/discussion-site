@@ -1,0 +1,1589 @@
+[2023-08-08 01:21:31,350] app - WARNING - This is a test
+[2023-08-08 01:21:31,435] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-08 01:21:31,435] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-08-08 02:24:11,989] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-08 02:24:11,989] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-08-08 02:24:16,026] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:16] "GET / HTTP/1.1" 200 -
+[2023-08-08 02:24:16,095] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:16,096] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:16,123] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-08-08 02:24:40,877] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:40] "GET /discussions HTTP/1.1" 200 -
+[2023-08-08 02:24:40,888] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:40,889] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:44,455] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:44] "POST /checkloggedon HTTP/1.1" 200 -
+[2023-08-08 02:24:44,475] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:44] "GET /login HTTP/1.1" 200 -
+[2023-08-08 02:24:44,486] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:44,487] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:47,446] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:47] "GET /login HTTP/1.1" 200 -
+[2023-08-08 02:24:47,456] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:47,457] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:52,091] app - INFO - Successfully authenticated user and password
+[2023-08-08 02:24:52,091] app - INFO - Successfully logged in user id=1
+[2023-08-08 02:24:52,092] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2023-08-08 02:24:52,098] app - INFO - Successfully found user id=1... rendering user.html
+[2023-08-08 02:24:52,113] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:52] "GET /profile/1 HTTP/1.1" 200 -
+[2023-08-08 02:24:52,123] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:52,124] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:53,930] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:53] "GET /discussions HTTP/1.1" 200 -
+[2023-08-08 02:24:53,940] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:53,941] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[2023-08-08 02:24:54,866] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:54] "POST /checkloggedon HTTP/1.1" 200 -
+[2023-08-08 02:24:59,439] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:24:59] "POST /checkloggedon HTTP/1.1" 200 -
+[2023-08-08 02:25:05,032] app - INFO - Successfully committed new discussion id=6... redirecting to discussion page
+[2023-08-08 02:25:05,032] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:25:05] "[32mPOST /discussions HTTP/1.1[0m" 302 -
+[2023-08-08 02:25:05,046] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:25:05] "GET /discussions/6 HTTP/1.1" 200 -
+[2023-08-08 02:25:05,058] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:25:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2023-08-08 02:25:05,059] werkzeug - INFO - 127.0.0.1 - - [08/Aug/2023 02:25:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[2023-08-08 02:40:45,978] app - INFO - Successfully logged out user
+[2023-08-08 15:22:42,243] app - INFO - Successfully authenticated user and password
+[2023-08-08 15:22:42,244] app - INFO - Successfully logged in user id=1
+[2023-08-08 15:22:42,250] app - INFO - Successfully found user id=1... rendering user.html
+[2023-08-08 15:22:47,974] app - INFO - Successfully logged out user
+[2023-08-08 15:22:53,361] app - INFO - Successfully authenticated user and password
+[2023-08-08 15:22:53,361] app - INFO - Successfully logged in user id=2
+[2023-08-08 15:22:53,367] app - INFO - Successfully found user id=2... rendering user.html
+[2023-08-08 15:22:56,734] app - INFO - Successfully altered likes/dislikes
+[2023-08-08 15:23:00,267] app - INFO - Successfully found user id=2... rendering user.html
+[2023-08-10 00:55:11,670] app - ERROR - Exception on /discussions/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 125, in discussion
+    get_discussion.views += 1
+TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'
+[2023-08-10 00:56:53,869] app - ERROR - Exception on /discussions/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 125, in discussion
+    get_discussion.views += 1
+TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'
+[2023-08-10 00:56:55,241] app - ERROR - Exception on /discussions/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 125, in discussion
+    get_discussion.views += 1
+TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'
+[2023-08-10 01:12:33,301] app - INFO - Successfully found user id=1... rendering user.html
+[2023-08-10 01:12:36,560] app - INFO - Successfully found user id=2... rendering user.html
+[2023-08-10 01:12:55,543] app - INFO - Successfully found user id=3... rendering user.html
+[2023-08-10 01:23:38,903] app - INFO - Successfully found user id=1... rendering user.html
+[2023-08-12 15:53:20,216] app - INFO - Successfully found user id=1... rendering user.html
+[2023-08-12 16:33:31,192] app - INFO - Successfully authenticated user and password
+[2023-08-12 16:33:31,192] app - INFO - Successfully logged in user id=1
+[2023-08-12 16:33:31,201] app - INFO - Successfully found user id=1... rendering user.html
+[2023-08-12 16:33:35,026] app - INFO - Successfully found user id=2... rendering user.html
+[2023-08-12 16:33:41,762] app - INFO - Successfully found user id=3... rendering user.html
+[2023-08-12 16:33:49,745] app - INFO - Successfully found user id=1... rendering user.html
+[2023-08-12 16:34:05,051] app - INFO - Successfully logged out user
+[2023-08-12 16:34:14,128] app - INFO - User or password authorisation failed
+[2023-08-12 16:34:19,345] app - INFO - User or password authorisation failed
+[2023-08-12 16:34:23,944] app - INFO - User or password authorisation failed
+[2023-08-12 16:34:34,816] app - INFO - Successfully authenticated user and password
+[2023-08-12 16:34:34,817] app - INFO - Successfully logged in user id=2
+[2023-08-12 16:34:34,822] app - INFO - Successfully found user id=2... rendering user.html
+[2023-08-12 16:34:40,618] app - ERROR - Exception on /delete/user/2 [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 3396, in delete
+    state = attributes.instance_state(instance)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 175, in delete_discussion
+    db.session.delete(del_obj)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\scoping.py", line 627, in delete
+    return self._proxied.delete(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 3398, in delete
+    raise exc.UnmappedInstanceError(instance) from err
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.str' is not mapped
+[2023-08-12 16:37:47,152] app - INFO - Successfully found user id=2... rendering user.html
+[2023-08-12 16:37:51,229] app - INFO - Successfully deleted user id=2
+[2023-08-12 16:38:03,442] app - WARNING - Failed to find user id=2... redirecting to /home
+[2023-08-12 16:42:09,638] app - ERROR - Exception on /discussions/3 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 149, in discussion
+    return render_template('discussion.html', title='Discussion', discussion=get_discussion,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\discussion.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\base.html", line 30, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\discussion.html", line 6, in block 'content'
+    {% if discussion.poster_id is None %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateRuntimeError: No test named 'None' found.
+[2023-08-12 16:43:16,474] app - ERROR - Exception on /discussions/3 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 150, in discussion
+    return render_template('discussion.html', title='Discussion', discussion=get_discussion,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\discussion.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\base.html", line 30, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\discussion.html", line 6, in block 'content'
+    {% if discussion.poster_id is None %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateRuntimeError: No test named 'None' found.
+[2023-08-12 16:43:48,026] app - ERROR - Exception on /discussions/3 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 150, in discussion
+    return render_template('discussion.html', title='Discussion', discussion=get_discussion,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\discussion.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\base.html", line 30, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\discussion.html", line 7, in block 'content'
+    <p>Posted by: <a href="{{ url_for('profile', user_id=discussion.poster_id) }}">{{ discussion.poster.username }}</a></p>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1697, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 950, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'profile'. Did you forget to specify values ['user_id']?
+[2023-08-12 16:44:59,172] app - INFO - User or password authorisation failed
+[2023-08-12 16:49:37,355] app - INFO - Successfully committed new user id=4 to database
+[2023-08-12 16:49:41,447] app - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 40, in sign_up
+    server = smtplib.SMTP('localhost')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+[2023-08-12 16:59:23,593] app - WARNING - Failed to commit new user to database - (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_user_email"
+DETAIL:  Key (email)=(tommyford28@gmail.com) already exists.
+
+[SQL: INSERT INTO "user" (username, email, password_hash, joined_at_date, liked_discussion_ids, disliked_discussion_ids, liked_comment_ids, disliked_comment_ids) VALUES (%(username)s, %(email)s, %(password_hash)s, %(joined_at_date)s, %(liked_discussion_ids)s, %(disliked_discussion_ids)s, %(liked_comment_ids)s, %(disliked_comment_ids)s) RETURNING "user".id]
+[parameters: {'username': 'Ford03', 'email': 'tommyford28@gmail.com', 'password_hash': 'pbkdf2:sha256:600000$RHoodPP9nVRRmSYN$070b5efe95ba3b449efffcc0f3d3bcbbfa92f6cfc786cb98515a157a3ba9cf9a', 'joined_at_date': datetime.datetime(2023, 8, 12, 15, 57, 58, 952927), 'liked_discussion_ids': '', 'disliked_discussion_ids': '', 'liked_comment_ids': '', 'disliked_comment_ids': ''}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2023-08-12 16:59:37,280] app - INFO - Successfully authenticated user and password
+[2023-08-12 16:59:37,281] app - INFO - Successfully logged in user id=4
+[2023-08-12 16:59:37,286] app - INFO - Successfully found user id=4... rendering user.html
+[2023-08-12 16:59:40,060] app - INFO - Successfully deleted user id=4
+[2023-08-12 16:59:49,483] app - INFO - Successfully committed new user id=6 to database
+[2023-08-12 16:59:51,534] app - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 42, in sign_up
+    mail.send(message)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+[2023-08-12 17:05:28,755] app - INFO - Successfully authenticated user and password
+[2023-08-12 17:05:28,755] app - INFO - Successfully logged in user id=6
+[2023-08-12 17:05:28,761] app - INFO - Successfully found user id=6... rendering user.html
+[2023-08-12 17:05:29,907] app - INFO - Successfully deleted user id=6
+[2023-08-12 17:05:47,710] app - INFO - Successfully committed new user id=7 to database
+[2023-08-12 17:05:48,124] app - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 42, in sign_up
+    mail.send(message)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor m8-20020a7bca48000000b003fe11148055sm8871102wml.27 - gsmtp')
+[2023-08-12 17:08:22,915] app - INFO - Successfully authenticated user and password
+[2023-08-12 17:08:22,915] app - INFO - Successfully logged in user id=7
+[2023-08-12 17:08:22,920] app - INFO - Successfully found user id=7... rendering user.html
+[2023-08-12 17:08:23,752] app - INFO - Successfully deleted user id=7
+[2023-08-12 17:08:40,036] app - INFO - Successfully committed new user id=8 to database
+[2023-08-12 17:08:40,771] app - INFO - Successfully found user id=8... rendering user.html
+[2023-08-12 17:10:25,105] app - INFO - Successfully committed new user id=9 to database
+[2023-08-12 17:10:25,826] app - INFO - Successfully found user id=9... rendering user.html
+[2023-08-12 17:17:48,916] app - INFO - Successfully authenticated user and password
+[2023-08-12 17:17:48,916] app - INFO - Successfully logged in user id=9
+[2023-08-12 17:17:48,923] app - INFO - Successfully found user id=9... rendering user.html
+[2023-08-12 17:17:50,127] app - INFO - Successfully deleted user id=9
+[2023-08-12 17:21:57,155] app - INFO - Successfully committed new user id=10 to database
+[2023-08-12 17:21:57,998] app - INFO - Successfully found user id=10... rendering user.html
+[2023-08-12 22:09:00,312] app - INFO - Successfully authenticated user and password
+[2023-08-12 22:09:00,312] app - INFO - Successfully logged in user id=10
+[2023-08-12 22:09:00,318] app - INFO - Successfully found user id=10... rendering user.html
+[2023-08-12 22:09:01,529] app - INFO - Successfully deleted user id=10
+[2023-08-12 22:09:27,058] app - INFO - Successfully committed new user id=11 to database
+[2023-08-12 22:09:28,087] app - INFO - Successfully found user id=11... rendering user.html
+[2023-08-12 22:15:48,449] app - INFO - Successfully deleted user id=11
+[2023-08-12 22:15:55,683] app - INFO - Successfully authenticated user and password
+[2023-08-12 22:15:55,683] app - INFO - Successfully logged in user id=8
+[2023-08-12 22:15:55,690] app - INFO - Successfully found user id=8... rendering user.html
+[2023-08-12 22:15:59,218] app - INFO - Successfully deleted user id=8
+[2023-08-12 22:17:39,391] app - INFO - Successfully committed new user id=12 to database
+[2023-08-12 22:17:40,184] app - INFO - Successfully found user id=12... rendering user.html
+[2023-08-12 22:27:18,243] app - INFO - Successfully deleted user id=12
+[2023-08-12 22:27:28,765] app - INFO - Successfully committed new user id=13 to database
+[2023-08-12 22:27:29,703] app - INFO - Successfully found user id=13... rendering user.html
+[2023-08-12 22:27:51,626] app - INFO - Successfully deleted user id=13
+[2023-08-12 22:28:00,339] app - INFO - Successfully committed new user id=14 to database
+[2023-08-12 22:28:01,081] app - INFO - Successfully found user id=14... rendering user.html
+[2023-08-12 22:30:13,930] app - INFO - Successfully deleted user id=14
+[2023-08-12 22:30:24,657] app - INFO - Successfully committed new user id=15 to database
+[2023-08-12 22:30:25,369] app - INFO - Successfully found user id=15... rendering user.html
+[2023-08-12 22:33:01,752] app - INFO - Successfully deleted user id=15
+[2023-08-12 22:33:10,518] app - INFO - Successfully committed new user id=16 to database
+[2023-08-12 22:33:11,282] app - INFO - Successfully found user id=16... rendering user.html
+[2023-08-12 22:38:18,813] app - INFO - Successfully deleted user id=16
+[2023-08-12 22:38:27,147] app - INFO - Successfully committed new user id=17 to database
+[2023-08-12 22:38:27,885] app - INFO - Successfully found user id=17... rendering user.html
+[2023-08-12 22:41:38,254] app - INFO - Successfully logged out user
+[2023-08-12 22:42:54,817] app - WARNING - Failed to commit new user to database - (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_user_email"
+DETAIL:  Key (email)=(tommyford28@gmail.com) already exists.
+
+[SQL: INSERT INTO "user" (username, email, password_hash, joined_at_date, liked_discussion_ids, disliked_discussion_ids, liked_comment_ids, disliked_comment_ids, verified_email, email_code) VALUES (%(username)s, %(email)s, %(password_hash)s, %(joined_at_date)s, %(liked_discussion_ids)s, %(disliked_discussion_ids)s, %(liked_comment_ids)s, %(disliked_comment_ids)s, %(verified_email)s, %(email_code)s) RETURNING "user".id]
+[parameters: {'username': 'Ford03', 'email': 'tommyford28@gmail.com', 'password_hash': 'pbkdf2:sha256:600000$QciVFYsOL1q2VVRy$b51a3f2317f3424a3e5d62b521761196a6869a9d5f2fbd7f524467d0ef2ba657', 'joined_at_date': datetime.datetime(2023, 8, 12, 21, 42, 40, 355922), 'liked_discussion_ids': '', 'disliked_discussion_ids': '', 'liked_comment_ids': '', 'disliked_comment_ids': '', 'verified_email': False, 'email_code': 'c8661c1d-e911-4103-841d-60f49c450832'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2023-08-12 22:43:04,436] app - INFO - Successfully authenticated user and password
+[2023-08-12 22:43:04,436] app - INFO - Successfully logged in user id=17
+[2023-08-12 22:43:04,443] app - INFO - Successfully found user id=17... rendering user.html
+[2023-08-12 22:43:05,716] app - INFO - Successfully deleted user id=17
+[2023-08-12 22:43:14,305] app - INFO - Successfully committed new user id=19 to database
+[2023-08-12 22:43:15,078] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-12 22:44:06,624] app - INFO - Successfully verified Email address user_id=19
+[2023-08-12 22:44:06,632] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-12 23:18:30,917] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-13 00:33:56,190] app - INFO - Successfully altered likes/dislikes
+[2023-08-13 02:14:40,489] app - INFO - Successfully logged out user
+[2023-08-13 02:14:41,402] app - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 67, in login
+    logger.info('User or password authorisation failed')
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\login.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\base.html", line 37, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\login.html", line 19, in block 'content'
+    <td><a href="{{ url_for('change_password') }}">Forgot Password?</a></td>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1697, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 950, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'change_password'. Did you mean 'check_logged_on' instead?
+[2023-08-13 02:14:56,103] app - ERROR - Exception on /change-password [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1965, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 921, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: column user.reset_password_code does not exist
+LINE 1: ...fied_email, "user".email_code AS user_email_code, "user".res...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 312, in change_password
+    user = User.query.filter_by(email=form.email.data).first()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2747, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2846, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2246, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2141, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1412, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 483, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1635, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1844, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1984, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2339, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1965, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 921, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column user.reset_password_code does not exist
+LINE 1: ...fied_email, "user".email_code AS user_email_code, "user".res...
+                                                             ^
+
+[SQL: SELECT "user".id AS user_id, "user".username AS user_username, "user".email AS user_email, "user".password_hash AS user_password_hash, "user".joined_at_date AS user_joined_at_date, "user".liked_discussion_ids AS user_liked_discussion_ids, "user".disliked_discussion_ids AS user_disliked_discussion_ids, "user".liked_comment_ids AS user_liked_comment_ids, "user".disliked_comment_ids AS user_disliked_comment_ids, "user".verified_email AS user_verified_email, "user".email_code AS user_email_code, "user".reset_password_code AS user_reset_password_code, "user".reset_password_expire_time AS user_reset_password_expire_time 
+FROM "user" 
+WHERE "user".email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'tommyford28@gmail.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2023-08-13 02:15:35,529] app - ERROR - Exception on /change-password [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 320, in change_password
+    url_for('reset_password',
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\helpers.py", line 225, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 948, in build
+    rv = self._partial_build(endpoint, values, method, append_unknown)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 827, in _partial_build
+    rv = self._partial_build(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 840, in _partial_build
+    build_rv = rule.build(values, append_unknown)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\rules.py", line 835, in build
+    return self._build_unknown(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<werkzeug routing>", line 1, in <builder:'/change-password/<int:user_id>/<string:code>'>
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\converters.py", line 172, in to_url
+    value = str(self.num_convert(value))
+                ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'set'
+[2023-08-13 02:18:19,017] app - ERROR - Exception on /change-password [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 320, in change_password
+    url_for('reset_password',
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\helpers.py", line 225, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 948, in build
+    rv = self._partial_build(endpoint, values, method, append_unknown)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 827, in _partial_build
+    rv = self._partial_build(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 840, in _partial_build
+    build_rv = rule.build(values, append_unknown)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\rules.py", line 835, in build
+    return self._build_unknown(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<werkzeug routing>", line 1, in <builder:'/change-password/<int:user_id>/<string:code>'>
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\converters.py", line 172, in to_url
+    value = str(self.num_convert(value))
+                ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'set'
+[2023-08-13 02:19:43,943] app - ERROR - Exception on /change-password [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 322, in change_password
+    url_for('reset_password',
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\helpers.py", line 225, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 948, in build
+    rv = self._partial_build(endpoint, values, method, append_unknown)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 827, in _partial_build
+    rv = self._partial_build(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\map.py", line 840, in _partial_build
+    build_rv = rule.build(values, append_unknown)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\rules.py", line 835, in build
+    return self._build_unknown(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<werkzeug routing>", line 1, in <builder:'/change-password/<int:user_id>/<string:code>'>
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\routing\converters.py", line 172, in to_url
+    value = str(self.num_convert(value))
+                ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'set'
+[2023-08-13 02:31:57,775] app - ERROR - Exception on /change-password/19/c33dc925-312e-479f-a1fb-9f3f0fdda720 [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 347, in reset_password
+    if form.new_password.validate() and form.new_password_check.validate():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Field.validate() missing 1 required positional argument: 'form'
+[2023-08-13 02:32:23,908] app - ERROR - Exception on /change-password/19/c33dc925-312e-479f-a1fb-9f3f0fdda720 [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 347, in reset_password
+    if form.new_password.validate(form) and form.new_password_check.validate(form):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Field.validate() missing 1 required positional argument: 'form'
+[2023-08-13 02:33:22,663] app - INFO - Successfully authenticated user and password
+[2023-08-13 02:33:22,663] app - INFO - Successfully logged in user id=19
+[2023-08-13 02:33:22,669] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-13 02:33:27,247] app - INFO - Successfully logged out user
+[2023-08-13 02:33:32,710] app - INFO - User or password authorisation failed
+[2023-08-13 02:33:37,106] app - INFO - Successfully authenticated user and password
+[2023-08-13 02:33:37,106] app - INFO - Successfully logged in user id=19
+[2023-08-13 02:33:37,112] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-13 13:30:54,735] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-13 13:31:07,085] app - INFO - User or password authorisation failed
+[2023-08-13 13:31:57,510] app - INFO - User or password authorisation failed
+[2023-08-13 13:32:24,826] app - INFO - User or password authorisation failed
+[2023-08-13 13:35:30,430] app - INFO - User or password authorisation failed
+[2023-08-13 13:38:11,781] app - INFO - User or password authorisation failed
+[2023-08-13 13:38:35,271] app - INFO - User or password authorisation failed
+[2023-08-13 13:39:22,888] app - INFO - User or password authorisation failed
+[2023-08-13 13:40:09,063] app - INFO - User or password authorisation failed
+[2023-08-13 13:40:49,606] app - INFO - User or password authorisation failed
+[2023-08-13 13:41:15,997] app - INFO - User or password authorisation failed
+[2023-08-13 13:42:36,799] app - INFO - User or password authorisation failed
+[2023-08-13 13:42:49,947] app - INFO - User or password authorisation failed
+[2023-08-13 13:42:54,899] app - INFO - User or password authorisation failed
+[2023-08-13 14:54:31,668] app - INFO - Successfully found user id=1... rendering user.html
+[2023-08-13 15:09:38,864] app - INFO - User or password authorisation failed
+[2023-08-13 15:09:42,107] app - INFO - Successfully authenticated user and password
+[2023-08-13 15:09:42,107] app - INFO - Successfully logged in user id=19
+[2023-08-13 15:09:42,115] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-13 16:17:39,976] app - ERROR - Exception on /discussions [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 132, in discussions
+    return render_template('discussions.html', discussions=all_discussions, title='Discussions', form=form, search_form=search_form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\discussions.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\base.html", line 11, in top-level template code
+    {{ mathdown.include_pagedown() }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'flask_mathdown._mathdown object' has no attribute 'include_pagedown'
+[2023-08-14 14:59:26,079] app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 19, in index
+    return render_template('home.html', title='Home')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: home.html
+[2023-08-14 14:59:59,945] app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 19, in index
+    return render_template('home.html', title='Home')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: home.html
+[2023-08-14 15:52:20,732] app - INFO - Successfully authenticated user and password
+[2023-08-14 15:52:20,732] app - INFO - Successfully logged in user id=19
+[2023-08-14 15:52:20,738] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-14 16:06:55,998] app - ERROR - Exception on /discussions [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 98, in discussions
+    Discussion.text.ilike('%' + search_form.search_text.data + '%'),
+                          ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+[2023-08-14 16:08:40,063] app - ERROR - Exception on /discussions [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 98, in discussions
+    Discussion.text.ilike('%' + search_form.search_text.data + '%'),
+                          ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+[2023-08-14 16:44:05,704] app - INFO - Successfully committed new discussion id=8... redirecting to discussion page
+[2023-08-14 16:50:38,069] app - INFO - Successfully committed new discussion id=9... redirecting to discussion page
+[2023-08-14 16:56:00,963] app - ERROR - Exception on /discussions/9 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 159, in discussion
+    return render_template('discussion.html', title='Discussion', discussion=get_discussion,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\discussion.html", line 6, in template
+    <p>{{ discussion.text | markdown }}</p>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'markdown'.
+[2023-08-14 16:57:30,451] app - ERROR - Exception on /discussions/9 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 159, in discussion
+    return render_template('discussion.html', title='Discussion', discussion=get_discussion,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\templates\discussion.html", line 6, in template
+    <p>{{ discussion.text | markdown }}</p>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'markdown'.
+[2023-08-14 17:29:26,080] app - INFO - Successfully committed new discussion id=10... redirecting to discussion page
+[2023-08-14 18:46:55,420] app - INFO - Successfully committed new discussion id=11... redirecting to discussion page
+[2023-08-14 18:47:08,538] app - INFO - Successfully deleted discussion id=11
+[2023-08-15 12:31:42,123] app - INFO - User or password authorisation failed
+[2023-08-15 12:31:53,269] app - INFO - Successfully authenticated user and password
+[2023-08-15 12:31:53,269] app - INFO - Successfully logged in user id=19
+[2023-08-15 12:31:53,275] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-15 12:37:10,026] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-15 12:37:17,303] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-15 12:42:19,873] app - INFO - Successfully committed new comment id=9
+[2023-08-15 13:03:41,143] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-15 13:10:00,760] app - INFO - Successfully committed new comment id=10
+[2023-08-15 13:12:52,561] app - INFO - Successfully committed new comment id=11
+[2023-08-15 13:28:56,241] app - INFO - Successfully committed new comment id=12
+[2023-08-18 01:15:32,221] app - INFO - Successfully authenticated user and password
+[2023-08-18 01:15:32,221] app - INFO - Successfully logged in user id=19
+[2023-08-18 01:15:32,229] app - INFO - Successfully found user id=19... rendering user.html
+[2023-08-18 01:17:58,497] app - INFO - Successfully logged out user
+[2023-08-18 01:18:08,684] app - INFO - Successfully authenticated user and password
+[2023-08-18 01:18:08,684] app - INFO - Successfully logged in user id=1
+[2023-08-18 01:18:08,692] app - INFO - Successfully found user id=1... rendering user.html
+[2023-08-18 01:18:14,789] app - INFO - Successfully deleted user id=1
+[2023-08-18 01:18:36,900] app - INFO - Successfully committed new user id=20 to database
+[2023-08-18 01:18:37,823] app - INFO - Successfully found user id=20... rendering user.html
+[2023-08-18 01:19:19,847] app - INFO - Successfully verified Email address user_id=20
+[2023-08-18 01:19:19,854] app - INFO - Successfully found user id=20... rendering user.html
+[2023-08-18 01:19:35,971] app - INFO - Successfully logged out user
+[2023-08-18 01:20:20,801] app - INFO - Successfully authenticated user and password
+[2023-08-18 01:20:20,802] app - INFO - Successfully logged in user id=20
+[2023-08-18 01:20:20,808] app - INFO - Successfully found user id=20... rendering user.html
+[2023-08-19 02:44:08,510] app - ERROR - Exception on /api/v1/discussion/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 489, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 604, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\api.py", line 24, in get
+    'author': discussion.poster.username,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'username'
+[2023-08-19 02:45:37,874] app - ERROR - Exception on /api/v1/discussion/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 489, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 604, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\api.py", line 24, in get
+    'author': discussion.poster.username or ['deleted user'],
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'username'
+[2023-08-19 02:55:37,027] app - ERROR - Exception on /api/v1/discussion/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 493, in wrapper
+    return self.make_response(data, code, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 522, in make_response
+    resp = self.representations[mediatype](data, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\representations\json.py", line 21, in output_json
+    dumped = dumps(data, **settings) + "\n"
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+[2023-08-19 02:56:46,166] app - ERROR - Exception on /api/v1/discussion/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 493, in wrapper
+    return self.make_response(data, code, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 522, in make_response
+    resp = self.representations[mediatype](data, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\representations\json.py", line 21, in output_json
+    dumped = dumps(data, **settings) + "\n"
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type date is not JSON serializable
+[2023-08-19 14:52:29,412] app - ERROR - Exception on /api/v1/discussion/id=1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 489, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 604, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: Disussion.get() got an unexpected keyword argument 'id'
+[2023-08-19 14:52:38,914] app - ERROR - Exception on /api/v1/discussion/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 489, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 604, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: Disussion.get() got an unexpected keyword argument 'id'
+[2023-08-19 16:31:32,096] app - ERROR - Exception on /api/v1/discussion [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 489, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 604, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\api.py", line 16, in get
+    args = parser.parse_args()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\reqparse.py", line 328, in parse_args
+    value, found = arg.parse(req, self.bundle_errors)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\reqparse.py", line 184, in parse
+    source = self.source(request)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\reqparse.py", line 129, in source
+    values.update(value)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 369, in update
+    for key, value in iter_multi_items(mapping):
+        ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+[2023-08-19 16:31:51,291] app - ERROR - Exception on /api/v1/discussion [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 489, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 604, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\api.py", line 16, in get
+    args = parser.parse_args()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\reqparse.py", line 328, in parse_args
+    value, found = arg.parse(req, self.bundle_errors)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\reqparse.py", line 184, in parse
+    source = self.source(request)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\reqparse.py", line 129, in source
+    values.update(value)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 369, in update
+    for key, value in iter_multi_items(mapping):
+        ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+[2023-08-19 16:32:34,071] app - ERROR - Exception on /api/v1/discussion [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 489, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 604, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\api.py", line 16, in get
+    args = parser.parse_args()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\reqparse.py", line 328, in parse_args
+    value, found = arg.parse(req, self.bundle_errors)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\reqparse.py", line 184, in parse
+    source = self.source(request)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\reqparse.py", line 129, in source
+    values.update(value)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 369, in update
+    for key, value in iter_multi_items(mapping):
+        ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+[2023-08-19 18:04:35,734] app - INFO - User or password authorisation failed
+[2023-08-19 18:04:38,570] app - INFO - Successfully authenticated user and password
+[2023-08-19 18:04:38,570] app - INFO - Successfully logged in user id=20
+[2023-08-19 18:04:38,578] app - INFO - Successfully found user id=20... rendering user.html
+[2023-08-19 18:56:53,279] app - ERROR - Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1965, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 921, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: column user.api_key does not exist
+LINE 1: ...d_expire_time AS user_reset_password_expire_time, "user".api...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 298, in error_router
+    return original_handler(e)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 20, in index
+    return render_template('home.html', title='Home')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\templating.py", line 128, in _render
+    app.update_template_context(context)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 737, in update_template_context
+    context.update(func())
+                   ^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_login\utils.py", line 407, in _user_context_processor
+    return dict(current_user=_get_user())
+                             ^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_login\utils.py", line 372, in _get_user
+    current_app.login_manager._load_user()
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_login\login_manager.py", line 364, in _load_user
+    user = self._user_callback(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 208, in load_user
+    return User.query.get(int(user_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in get
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\util\deprecations.py", line 386, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 1130, in get
+    return self._get_impl(ident, loading.load_on_pk_identity)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 1139, in _get_impl
+    return self.session._get_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 3684, in _get_impl
+    return db_load_fn(
+           ^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\loading.py", line 666, in load_on_pk_identity
+    session.execute(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2246, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2141, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1412, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 483, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1635, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1844, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1984, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2339, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1965, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 921, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column user.api_key does not exist
+LINE 1: ...d_expire_time AS user_reset_password_expire_time, "user".api...
+                                                             ^
+
+[SQL: SELECT "user".id AS user_id, "user".username AS user_username, "user".email AS user_email, "user".password_hash AS user_password_hash, "user".joined_at_date AS user_joined_at_date, "user".liked_discussion_ids AS user_liked_discussion_ids, "user".disliked_discussion_ids AS user_disliked_discussion_ids, "user".liked_comment_ids AS user_liked_comment_ids, "user".disliked_comment_ids AS user_disliked_comment_ids, "user".verified_email AS user_verified_email, "user".email_code AS user_email_code, "user".reset_password_code AS user_reset_password_code, "user".reset_password_expire_time AS user_reset_password_expire_time, "user".api_key AS user_api_key 
+FROM "user" 
+WHERE "user".id = %(pk_1)s]
+[parameters: {'pk_1': 20}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2023-08-19 19:00:02,921] app - ERROR - Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 298, in error_router
+    return original_handler(e)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 19, in index
+    print(User.query.all().username)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'username'
+[2023-08-19 19:01:11,090] app - ERROR - Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 298, in error_router
+    return original_handler(e)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\routes.py", line 19, in index
+    print(User.query(User.username).all())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Query' object is not callable
+[2023-08-19 19:19:10,355] app - ERROR - Exception on /api/v1/discussion [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 489, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 604, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\api.py", line 26, in authorised
+    user = User.query.filter_by(User.api_key == key).first()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Query.filter_by() takes 1 positional argument but 2 were given
+[2023-08-19 19:42:29,571] app - WARNING - Failed to POST discussion - (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_discussion_title"
+DETAIL:  Key (title)=(api test) already exists.
+
+[SQL: INSERT INTO discussion (title, text, tags, views, likes, dislikes, post_date, poster_id) VALUES (%(title)s, %(text)s, %(tags)s, %(views)s, %(likes)s, %(dislikes)s, %(post_date)s, %(poster_id)s) RETURNING discussion.id]
+[parameters: {'title': 'api test', 'text': 'plz work nicely\n$f(x)$', 'tags': 'Maths,Physics', 'views': 0, 'likes': 0, 'dislikes': 0, 'post_date': datetime.datetime(2023, 8, 19, 18, 34, 12, 98657), 'poster_id': 19}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2023-08-19 19:48:11,991] app - WARNING - Failed to POST discussion - (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_discussion_title"
+DETAIL:  Key (title)=(api test) already exists.
+
+[SQL: INSERT INTO discussion (title, text, tags, views, likes, dislikes, post_date, poster_id) VALUES (%(title)s, %(text)s, %(tags)s, %(views)s, %(likes)s, %(dislikes)s, %(post_date)s, %(poster_id)s) RETURNING discussion.id]
+[parameters: {'title': 'api test', 'text': 'plz work nicely\n$f(x)$', 'tags': 'Maths,Physics', 'views': 0, 'likes': 0, 'dislikes': 0, 'post_date': datetime.datetime(2023, 8, 19, 18, 34, 12, 98657), 'poster_id': 19}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2023-08-21 15:05:58,810] app - ERROR - Exception on /api/v1/comment [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 493, in wrapper
+    return self.make_response(data, code, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 522, in make_response
+    resp = self.representations[mediatype](data, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\representations\json.py", line 21, in output_json
+    dumped = dumps(data, **settings) + "\n"
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResponseTemplate is not JSON serializable
+[2023-08-21 15:53:46,024] app - ERROR - Exception on /api/v1/comment [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1965, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 921, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "comment" violates foreign key constraint "fk_alembic_version_discussion_0"
+DETAIL:  Key (discussion_id)=(20) is not present in table "discussion".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\api.py", line 179, in post
+    db.session.commit()
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\scoping.py", line 552, in commit
+    return self._proxied.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1920, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1236, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1211, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4163, in flush
+    self._flush(objects)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4298, in _flush
+    with util.safe_reraise():
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 147, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4259, in _flush
+    flush_context.execute()
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1226, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1412, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 483, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1635, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1844, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1984, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2339, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1965, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 921, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "comment" violates foreign key constraint "fk_alembic_version_discussion_0"
+DETAIL:  Key (discussion_id)=(20) is not present in table "discussion".
+
+[SQL: INSERT INTO comment (text, post_date, likes, dislikes, poster_id, discussion_id) VALUES (%(text)s, %(post_date)s, %(likes)s, %(dislikes)s, %(poster_id)s, %(discussion_id)s) RETURNING comment.id]
+[parameters: {'text': 'nice', 'post_date': datetime.datetime(2023, 8, 21, 14, 53, 42, 800587), 'likes': 0, 'dislikes': 0, 'poster_id': 19, 'discussion_id': 20}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 489, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 604, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\api.py", line 28, in authorised
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\api.py", line 181, in post
+    logger.log(e)
+TypeError: Logger.log() missing 1 required positional argument: 'msg'
+[2023-08-21 15:54:10,638] app - WARNING - (psycopg2.errors.ForeignKeyViolation) insert or update on table "comment" violates foreign key constraint "fk_alembic_version_discussion_0"
+DETAIL:  Key (discussion_id)=(20) is not present in table "discussion".
+
+[SQL: INSERT INTO comment (text, post_date, likes, dislikes, poster_id, discussion_id) VALUES (%(text)s, %(post_date)s, %(likes)s, %(dislikes)s, %(poster_id)s, %(discussion_id)s) RETURNING comment.id]
+[parameters: {'text': 'nice', 'post_date': datetime.datetime(2023, 8, 21, 14, 54, 5, 576298), 'likes': 0, 'dislikes': 0, 'poster_id': 19, 'discussion_id': 20}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2023-08-22 15:02:38,539] app - ERROR - Exception on /api/v1/user/list [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 493, in wrapper
+    return self.make_response(data, code, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\__init__.py", line 522, in make_response
+    resp = self.representations[mediatype](data, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\PyCharmProjects\DiscussionSite\venv\Lib\site-packages\flask_restful\representations\json.py", line 21, in output_json
+    dumped = dumps(data, **settings) + "\n"
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ResponseTemplate is not JSON serializable
+[2023-08-22 17:48:19,850] app - INFO - User or password authorisation failed
+[2023-08-22 17:48:22,839] app - INFO - User or password authorisation failed
+[2023-08-22 17:53:02,721] app - INFO - Successfully committed new user id=21 to database
+[2023-08-22 17:53:03,639] app - INFO - Successfully found user id=21... rendering user.html
+[2023-08-22 17:53:21,056] app - INFO - Successfully committed new discussion id=15... redirecting to discussion page
+[2023-08-22 17:53:46,995] app - INFO - Successfully committed new comment id=17

@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block content %}
+    {{ mathdown.include_mathdown_editor() }}
+    <script type="text/javascript">
+    var md = window.markdownit();
+    window.addEventListener("keyup", function () {
+        var x = document.getElementsByClassName("mathdown");
+        for (var i = 0; i < x.length; i++) {
+            var text = x[i].textContent;
+            x[i].innerHTML = md.render(text);
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub, x[i]]);
+        }
+    });
+    </script>
+    <h2>Discussions</h2>
+
+    <!-- search bar form -->
+    <form method="post">
+    {{ search_form.hidden_tag() }}
+    {{ search_form.search_text() }}
+    <!-- Filter dropdown -->
+    <button onclick="toggle_dropdown()" type="button">Filter</button>
+    <div class="dropdown-content" id="filter_dropdown">
+        {{ search_form.tag_filter_choices.label }}
+        {{ search_form.tag_filter_choices() }}
+    </div>
+    {{ search_form.submit() }}
+    </form>
+
+    <!-- New discussion form -->
+    <form method="post" name="assign_objects">
+    {{ form.hidden_tag() }}
+    <table>
+        <tr>
+            <td>{{ form.title.label }}</td>
+            <td>{{ form.text.label }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.title() }}</td>
+            <td>{{ form.text(rows=6) }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.available.label }}</td>
+            <td>{{ form.available() }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.assigned.label }}</td>
+            <td>{{ form.assigned() }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.submit() }}</td>
+        </tr>
+    </table>
+    </form>
+
+    <!-- list discussions -->
+    <table>
+    {% for discussion in discussions %}
+    <tr>
+        <td><a href="{{ url_for('discussion', discussion_id=discussion.id) }}">{{ discussion.title }}: {{ discussion.text }}</a></td>
+    </tr>
+    {% endfor %}
+    </table>
+{% endblock %}
