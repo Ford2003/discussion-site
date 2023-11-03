@@ -14,7 +14,7 @@ load_dotenv('var.env')
 # Set up app and config
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET')
-app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{os.getenv("DB_USER")}:{os.getenv("DB_PASS")}@127.0.0.1:5432/data'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DB_URI')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config.update(dict(
     MAIL_SERVER='smtp.gmail.com',
