@@ -44,8 +44,8 @@ def sign_up():
             message = Message('Validate Test',
                               [user.email])
             message.body = 'Email Validation'
-            message.html = f'''Please click <a href="http://127.0.0.1:5000/verify_email/{user.id}/{email_code}">here</a>
-                                or follow this url: http://127.0.0.1:5000/verify_email/{user.id}/{email_code}'''
+            message.html = f'''Please click <a href="http://stemmy.onrender.com/verify_email/{user.id}/{email_code}">here</a>
+                                or follow this url: http://stemmy.onrender.com/verify_email/{user.id}/{email_code}'''
             mail.send(message)
             login_user(user)
             return redirect(url_for('profile', user_id=user.id))
