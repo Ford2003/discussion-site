@@ -31,7 +31,9 @@ app.config.update(dict(
 # Then run flask db upgrade
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
-db.create_all()
+
+with app.app_context():
+    db.create_all()
 
 # Set up login manager
 login_manager = LoginManager()
