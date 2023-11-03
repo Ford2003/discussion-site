@@ -32,9 +32,6 @@ app.config.update(dict(
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-with app.app_context():
-    db.create_all()
-
 # Set up login manager
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -62,6 +59,9 @@ mathdown = MathDown(app)
 import routes
 import models
 import api
+
+with app.app_context():
+    db.create_all()
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
